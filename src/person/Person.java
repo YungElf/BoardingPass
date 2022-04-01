@@ -5,7 +5,7 @@ import boardingpass.BoardingPass;
 import java.util.ArrayList;
 
 public class Person {
-    private String name;
+   /* private String name;
     private String email;
     private int age;
     private Sex sex;
@@ -75,7 +75,7 @@ public class Person {
         }
         else
             this.discount = false;
-    }
+    } */
 }
 
 
