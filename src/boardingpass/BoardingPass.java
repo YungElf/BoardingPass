@@ -53,7 +53,7 @@ public class BoardingPass {
         System.out.println("Please enter a valid phone number(Ex. 123-456-7890): ");
         String number = input.nextLine();
         //validating phone number length
-        while(number.length() != 10) {
+        while(number.length() != 12) {
             System.out.println("Invalid phone number. Try again.");
             number = input.nextLine();
         }
