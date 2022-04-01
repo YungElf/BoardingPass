@@ -73,7 +73,8 @@ public class BoardingPass {
     //generate ticket price with discounts
     public void ticketPrice(PersonInfo x) {
         //generate random price within 100 to 1000 for the user
-        int ticketPrice = (int) Math.floor(((100 + Math.random() * 1000) * 10)/10);
+        //int ticketPrice = (int)Math.floor((Math.random()*(max-min+1)+min);
+        int ticketPrice = (int)Math.floor(Math.random()*(1000 - 100 + 1) + 100);
 
         //reduce prices based on if the person:
         //age <= 12
